@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "C:\\Users\\zhanganl\\Desktop\\Jni_test\\jni_test_stdio\\jni_test_stdio\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\zhanganl\\Desktop\\Jni_test\\jni_test_stdio\\jni_test_stdio\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dC:/Users/zhanganl/Desktop/Jni_test/jni_test_stdio/jni_test_stdio/app/build/intermediates/ndkBuild/sourceSets/obj NDK_LIBS_OUT\u003dC:\\Users\\zhanganl\\Desktop\\Jni_test\\jni_test_stdio\\jni_test_stdio\\app\\build\\intermediates\\ndkBuild\\sourceSets\\lib clean"
+  ],
+  "libraries": {
+    "YanboberJniLibName-sourceSets-armeabi-v7a": {
+      "buildCommand": "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\zhanganl\\Desktop\\Jni_test\\jni_test_stdio\\jni_test_stdio\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dC:/Users/zhanganl/Desktop/Jni_test/jni_test_stdio/jni_test_stdio/app/build/intermediates/ndkBuild/sourceSets/obj NDK_LIBS_OUT\u003dC:\\Users\\zhanganl\\Desktop\\Jni_test\\jni_test_stdio\\jni_test_stdio\\app\\build\\intermediates\\ndkBuild\\sourceSets\\lib C:/Users/zhanganl/Desktop/Jni_test/jni_test_stdio/jni_test_stdio/app/build/intermediates/ndkBuild/sourceSets/obj/local/armeabi-v7a/libYanboberJniLibName.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "YanboberJniLibName",
+      "files": [
+        {
+          "src": "C:\\Users\\zhanganl\\Desktop\\Jni_test\\jni_test_stdio\\jni_test_stdio\\app\\src\\main\\jni\\jnitest.cpp",
+          "flags": "\"-gcc-toolchain\" \"D:/Android/sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:\\Users\\zhanganl\\Desktop\\Jni_test\\jni_test_stdio\\jni_test_stdio\\app\\src\\main\\jni\" \"-IC:\\Users\\zhanganl\\Desktop\\Jni_test\\jni_test_stdio\\jni_test_stdio\\app\\src\\debug\\jni\" \"-ID:/Android/sdk/ndk-bundle/build//../sources/cxx-stl/system/include\" \"-IC:/Users/zhanganl/Desktop/Jni_test/jni_test_stdio/jni_test_stdio/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"D:/Android/sdk/ndk-bundle/build//../platforms/android-15/arch-arm/usr/include\""
+        }
+      ],
+      "output": "C:\\Users\\zhanganl\\Desktop\\Jni_test\\jni_test_stdio\\jni_test_stdio\\app\\build\\intermediates\\ndkBuild\\sourceSets\\obj\\local\\armeabi-v7a\\libYanboberJniLibName.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "D:\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
